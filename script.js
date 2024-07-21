@@ -18,7 +18,7 @@ function addTask(){
     var i;
     for (i = 0; i < myVisionList.length; i++) {
       var span = document.createElement("SPAN");
-      var txt = document.createTextNode("\u00d7");
+      var txt = document.createTextNode(" \u00d7");
       span.className = "close";
       span.appendChild(txt);
       myVisionList[i].appendChild(span);
