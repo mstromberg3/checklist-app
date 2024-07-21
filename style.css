@@ -55,14 +55,15 @@ button {
 }
 .clearButton {
     margin-top: 15vh;
-    margin-left: 35vw;
-    margin-right: 35vw;
-    width: 30vw;
+    margin-left: 34vw;
+    margin-right: 34vw;
+    width: 32vw;
     color: black;
     background-color: red;
     border-radius: 5px;
     font-weight: bold;
     font-size: 1.1em;
+    padding:0.5em;
 }
 ul li {
   list-style: none;
@@ -71,6 +72,7 @@ ul li {
   user-select: none;
   cursor: pointer;
   position: relative;
+  margin-right:20px;
 }
 ul li::before {
   content:'';
